@@ -1,0 +1,33 @@
+
+
+@media (max-width:600px){
+
+    .cartDetails{
+        flex-direction: column;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .cardtotalbox{
+        margin: auto;
+        flex-direction: start;
+    }
+    .mx-5{
+        margin-left: 0 !important;
+    }
+}
+
+@media (min-width:600px)and (max-width:912px){
+
+    .cartDetails{
+        flex-direction: column;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .cardtotalbox{
+        margin: auto;
+        flex-direction: start;
+    }
+    .mx-5{
+        margin-left: 0 !important;
+    }
+}
