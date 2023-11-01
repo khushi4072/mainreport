@@ -1,0 +1,73 @@
+.mycard{
+    min-width:25px;
+    max-width:25px;
+    /* height:400px; */
+    /* background-color:black; */
+    margin:10px;
+    color:white;
+    margin-right:60px;
+    cursor:pointer;
+}
+
+
+
+.product-container div p{
+    font-family: cursive !important;
+    font-size:14px;
+}
+
+
+.product-carousel{
+    position: relative;
+    overflow:hidden;
+    width:1200px !important;
+    margin-left:100px;
+}
+
+.product-container{
+    /* padding: 0 10px; */
+    padding-left:50px;
+
+    display:flex;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+}
+
+.pre-btn , .next-btn{
+    border:2px solid black;
+    border-radius:50%;
+    width:20px;
+    /* height:10px; */
+    /* height:100px; */
+    position:absolute;
+    top:33%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:white;
+    padding:0;
+    box-shadow:0px 10px 10px 20px white;
+}
+
+
+.pre-btn:hover , .next-btn:hover{
+    background:none;
+}
+
+.next-btn{
+    right:0;
+}
+
+
+.next-btn p , .pre-btn p{
+    font-size:20px;
+    /* background-color:rgba(0,0,0,0.436);
+    box-shadow:0px 0px 10px 1px black; */
+    /* border-radius:50px;  */
+    color:black;
+    font-weight:900;
+    height:12px;
+     /* width:50px; */
+    /* height:100%;  */
+}
+
